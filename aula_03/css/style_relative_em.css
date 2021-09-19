@@ -1,0 +1,11 @@
+.externo{
+    width: 300px;
+    height: 200px;
+    background-color: lightseagreen;
+}
+
+.interno{
+    width: 10em;
+    height: 10em;
+    background-color: lightsalmon;  
+}

@@ -1,0 +1,104 @@
+header{
+    width: auto;
+    height: 150px;
+    background-color: darkcyan;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20vh;
+}
+
+main{
+    /* background-color: blue; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bloco{
+    background-color: darkgray;
+    margin: 0 auto;
+}
+
+.pag1, .pag2, .pag3, .pag4{
+    width: 30%;
+    margin: 5px;
+    min-width: 200px;
+    max-width: 0px;
+}
+
+.bloco h1{
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 5px;
+    background-color: coral;
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
+}
+
+/* CSS para as páginas */
+.paginas{
+    display: block;
+}
+
+.paginas img{
+    float: left;
+    margin: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+.paginas h1{
+    background-color: orangered;
+    color: white;
+    font-family: Arial;
+    padding: 5px;
+    margin: 0;
+}
+
+p{
+    padding: 0 10px;
+    text-align: justify;
+}
+
+a:link{
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: black 3px 3px;
+}
+a:visited{
+    text-decoration: none;
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: black 3px 3px;
+}
+a:hover{
+    text-decoration: none;
+    background-color: tomato;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: blue 3px 3px;
+}
+a:active{
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: red 3px 3px;
+}
+
+

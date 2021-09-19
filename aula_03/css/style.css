@@ -1,0 +1,10 @@
+body{
+    margin:0;
+}
+
+.exemplo{
+    width: 200pt;
+    height: 200pt;
+    background-color: lightcoral;
+}
+
