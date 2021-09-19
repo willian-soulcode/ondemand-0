@@ -1,0 +1,53 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+/* Zerando as configurações de margem externa e interna */
+
+.lista_principal {
+    list-style: none;
+    font-family: 'Arial';
+    float: left;
+}
+/* Removendo os bullets, definindo a família de fonte e fazendo com que a lista principal flutue à esquerda */
+
+.lista_principal li{
+    position:relative;
+    float:left;
+    padding: 10px 10px; 
+    display:block;
+    background-color: lightsalmon;
+    border: 2px solid whitesmoke;
+}
+/* Definindo o posicionamento do item da lista relativo à lista, fazendo com que o item da lista flutue à esquerda, definindo espaçamentos internos do item, exibindo o item como bloco, definindo cor de fundo e bordas para o item*/
+
+.lista_principal li:hover,
+ul li .sublista li:hover{
+    border: 2px solid white;
+    background-color: crimson;
+    color: white;
+}
+/* Definindo o comportamente do item da lista (borda, cor de fundo e cor de letra) quando o mouse estiver sobre ele */
+
+.lista_principal li .sublista{
+    position:absolute;
+    top:40px;
+    left:0;
+    display:none;
+}
+/* Definindo posicionamento absoluto da sublista (em relação à página), configurando espaçamento da sublista e ocultando a sublista */
+
+.lista_principal li:hover .sublista{
+    display:block;
+    z-index: 1;
+}
+/* Exibindo a sublista quando o mouse estiver sobre o item correspondente da lista principal e sobrepondo a sublista acima dos demais elementos */
+
+.lista_principal li .sublista li{
+    background-color: lightseagreen;
+    border:1px solid white;
+    width:150px;
+    display:block;
+}
+/* Definindo a cor de fundo, borda e largura dos itens da sublista e exibindo-os como blocos */

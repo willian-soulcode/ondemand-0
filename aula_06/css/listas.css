@@ -1,0 +1,39 @@
+
+.numerada{
+    list-style-type:decimal-leading-zero;
+}
+
+.literal{
+    list-style-type: lower-alpha;
+}
+
+.romanos{
+    list-style-type: upper-roman;
+}
+
+.ponto{
+    list-style-type: disc;
+}
+
+.quadrado{
+    list-style-type: square;
+}
+
+.circulo{
+    list-style-type: circle;
+}
+
+dt{
+    font-family: Arial;
+    font-weight:bold;
+    font-size:20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 6px solid;
+}
+
+dd{
+    font-family: arial;
+    text-align: justify;
+    line-height: 1.5;
+}

@@ -1,0 +1,35 @@
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family:  'Arial Black';
+}
+/* Neste primeiro bloco de regras CSS, configuramos o estilo geral da lista, removendo espaçamentos internos e externos, os bullets da lista e definindo a família da fonte. */
+
+.menu ul li{
+    display: inline-flex;
+}
+/* No segundo bloco, organizamos os itens da lista para que ficassem em linha e se ajustassem ao tamanho da tela. */
+
+.menu ul li a{
+    padding: 10px 20px;
+    text-decoration: none; 
+    margin-bottom: 5px;
+    border: orangered 1px solid;
+    border-bottom: 3px solid orangered;
+}
+/* No terceiro bloco, configuramos o comportamento dos links e acrescentamos alguns efeitos de bordas para dar um ar diferenciado ao nosso menu. */
+
+.menu ul li a:hover{
+    background-color: royalblue;
+    border: midnightblue 1px solid;
+    border-bottom: 3px solid midnightblue;
+    color: white;
+}
+/* No quarto bloco, fizemos o mesmo que o bloco anterior, porém, a regra só funciona quando o mouse está sobre o link. */
+
+.menu ul li a:active{
+    background-color: silver;
+    border-bottom: royalblue 3px solid;
+}
+/* E por último, criamos uma regra que dá um efeito de clique quando o usuário seleciona um item do menu. */

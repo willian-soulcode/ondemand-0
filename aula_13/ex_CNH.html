@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Emissão de CNH</title>
+    <link rel="stylesheet" href="css/cnh.css">
+    <script src="js/cnh.js"></script>
+</head>
+
+<body>
+    <h2>Para solicitar sua CNH preencha os campos abaixo:</h2>
+    <form >
+
+        <fieldset id="dados_pessoais">
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome"><br><br>
+
+            <label for="nasc">Ano de Nascimento:</label>
+            <input type="text" name="nasc" id="nasc"><br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados do DETRAN</legend>
+
+            <label for="prova">Nota da Prova Teórica:</label>
+            <input type="number" name="prova" id="prova"><br><br>
+
+            <label for="psico">Nota do Teste Psicotécnico:</label>
+            <input type="number" name="psico" id="psico"><br><br>
+
+            <label for="vista">Resultado do Exame de Vista:</label>
+            <input type="radio" name="vista" id="vista" >Apto</input>
+            <input type="radio" name="vista" id="vista" >Inapto <br><br>
+
+            <label for="pratica">Resultado da Prova Prática:</label>
+            <input type="radio" name="pratica" id="pratica" >Aprovado
+            <input type="radio" name="pratica" id="pratica" >Reprovado <br>
+
+        </fieldset>
+        <br>        
+        <button type="button" onclick= 'verificar()'>Solicitar CNH</button>
+
+    </form>
+
+</body>
+
+</html>

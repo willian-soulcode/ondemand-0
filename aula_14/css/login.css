@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+.formulario{
+    margin: 0 auto;
+    width: 400px;
+    padding: 0 30px;
+    border:1px solid #ccc;
+}
+
+.campos{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.links{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.links a {
+    padding: 5px 10px;
+}
+.campos label{
+    padding-left: 10px;
+    font-size: 1.1em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input[type=email],
+input[type=password]{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 15px;
+}

@@ -1,0 +1,73 @@
+/* table{
+    border-spacing: 20px;
+} */
+/* td, th{
+    padding: 5px;
+    border: 5px; 
+} */
+
+/* .fina td{
+    border: thin solid;
+}
+
+.media td{
+    border: medium solid;
+}
+
+.grossa td{
+    border: thick solid;
+}
+
+.personal td{
+    border: 2px solid;
+} */
+
+
+/* 
+
+.sem_borda td{
+    border-style: none;
+}
+
+.oculta td{
+    border-style: hidden;
+}
+
+.pontilhada td{
+    border-style: dotted;
+}
+
+.continua td{
+    border-style: solid;
+}
+
+.dupla td{
+    border-style: double;
+}
+
+.entalhada td{
+    border-style: groove;
+}
+
+.ressaltada td{
+    border-style: ridge;
+}
+
+.tracejada td{
+    border-style: dashed;
+}
+
+ */
+
+ td, th{
+     border: 2px solid black;
+     padding: 5px;
+ }
+
+ table{
+    border-collapse: collapse;
+    text-align: center;
+ }
+
+
+

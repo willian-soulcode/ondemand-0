@@ -1,0 +1,41 @@
+h2{
+    text-align: center;
+}
+
+form{
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+fieldset {
+    padding: 20px;
+    position: relative;
+    background-color: silver;
+}
+
+legend{
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid;
+    background-color: white;
+}
+
+input{
+    padding: 5px;
+    font-size: 12px;
+    width: 300px;
+}
+
+input[type="radio"]{
+    height: 15px;
+    width: 15px;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+}
